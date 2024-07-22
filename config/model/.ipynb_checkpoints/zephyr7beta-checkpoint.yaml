@@ -1,0 +1,6 @@
+defaults:
+  - base_model
+
+name_or_path: HuggingFaceH4/zephyr-7b-beta
+block_name: MistralDecoderLayer
+use_flash_attention: true

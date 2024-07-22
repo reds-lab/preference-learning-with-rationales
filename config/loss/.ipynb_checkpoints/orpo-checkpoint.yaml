@@ -1,0 +1,12 @@
+# ORPO Direct Preference Optimization
+name: orpo
+
+# the temperature parameter for our; lower values mean we care less about the reference model
+beta: 0.1
+
+
+trainer: ORPOTrainer
+
+dataloader: PairedPreferenceDataLoader
+
+use_reference_model: false

@@ -1,0 +1,6 @@
+defaults:
+  - base_model
+
+name_or_path: meta-llama/Meta-Llama-3-8B-Instruct
+block_name: LlamaDecoderLayer
+use_flash_attention: true

@@ -1,0 +1,13 @@
+# Direct Preference Optimization
+name: our
+
+# the temperature parameter for DPO; lower values mean we care less about the reference model
+beta: 0.1
+# gamma for the weight of rationales
+gamma: 0.1
+
+trainer: OURTrainer
+
+dataloader: PairedPreferenceDataLoader
+
+use_reference_model: true

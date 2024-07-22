@@ -1,0 +1,14 @@
+# R_ORPO
+name: rorpo-simple
+
+# the temperature parameter for our; lower values mean we care less about the reference model
+beta: 0.1
+
+# gamma for our rationales
+gamma: 1.0
+
+trainer: SimpleRORPOTrainer
+
+dataloader: RationalePairedPreferenceDataLoader
+
+use_reference_model: false
