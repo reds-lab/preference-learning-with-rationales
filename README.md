@@ -21,7 +21,7 @@ This repository contains the code for our paper [Data-Centric Human Preference O
 We propose to enhance existing preference learning frameworks with rationales to explain the reasons.
 
 
-![preference_rationale/blob/main/preference_learning_w_rats.gif](https://github.com/reds-lab/preference-learning-with-rationales/blob/main/preference_learning_w_rats.gif)
+![preference_rationale/blob/main/wrationales.gif](https://github.com/reds-lab/preference-learning-with-rationales/blob/main/wrationales.gif)
 
 
 ## Dataset
